@@ -25,7 +25,7 @@ React Native is like react-dom : It "connects" react to a specific platform like
 
 2. A Look Under The Hood Of React Native
 
-a.jsx -> compiled to -> React Native App
+App.jsx -> compiled to -> React Native App
 
 compiled:-
 
