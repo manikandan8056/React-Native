@@ -1,0 +1,60 @@
+Section 2: React Native Basics
+
+1. Module Introduction
+
+
+2. Exploring Core Components & Component Styling
+
+3. Working With Core Components
+
+4. Styling React Native Apps
+
+5. React Native: Core Components, Styling & Colors - More Information
+
+6. Exploring Layouts & Flexbox
+
+7. React Native & Flexbox
+
+8. Using Flexbox To Create Layouts
+
+9. Flexbox - A Deep Dive
+
+Quiz 1: Components, Styles, Layouts
+
+21. Improving The Layout
+
+22. Handling Events
+
+23. Managing A List Of Course Goals (in our Demo App)
+
+24. iOS & Android Styling Differences
+
+25. Making Content Scrollable with ScrollView
+
+26. Optimizing Lists with FlatList
+
+Quiz 2: More Components & Lists
+
+27. Splitting Components Into Smaller Components
+
+28. Utilizing Props
+
+29. Working on the "Goal Input" Component
+
+30. Handling Taps with the Pressable Component
+
+31. Making Items Deletable & Using IDs
+
+32. Adding an Android Ripple Effect & an iOS Alternative
+
+33. Adding a Modal Screen
+
+34. Styling the Modal Overlay
+
+35. Opening & Closing the Modal
+
+36. Working with Images & Changing Colors
+
+37. App Finishing Touches
+
+38. Module Summary
