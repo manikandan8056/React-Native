@@ -85,6 +85,8 @@ Using Expo, you can create a project with the following commands:
 
 ```bash
 npx create-expo-app@latest MyFirstApp
+           OR
+npx create-expo-app --template blank MyFirstApp
 cd MyFirstApp
 npx expo start
 ```

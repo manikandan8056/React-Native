@@ -2,6 +2,9 @@ Section 2: React Native Basics
 
 1. Module Introduction
 
+-> Using React Native Components & Building UIs 
+-> Styling React Native Apps
+-> Adding Interactivity & Managing State
 
 2. Exploring Core Components & Component Styling
 
