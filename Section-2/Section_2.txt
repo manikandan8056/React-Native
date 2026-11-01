@@ -8,15 +8,95 @@ Section 2: React Native Basics
 
 2. Exploring Core Components & Component Styling
 
+React Native Docs the basics we have seen core Component and native Component
+
 3. Working With Core Components
+
+Build into React Native
+Translation to native UI widgets is provided by React Native
+like 
+<button />
+<view /> 
+<text /> 
+<textinput />
+<Images />
+
+Combination of Core components & other build-in components
+
+cont Mytitle  = Props => {
+  return (
+    <View style={styles.container}>
+      <Text>{Props.title}</Text>
+    </View>
+  );
+} 
 
 4. Styling React Native Apps
 
+There is No CSS!
+
+Inline styles <-> stylesSheet Objects
+
+writen in javaScript (in the javaScript code files, next to the component code)
+
+Based on CSS syntax, but only a subset of properties & features is supported
+
+
 5. React Native: Core Components, Styling & Colors - More Information
+https://reactnative.dev/docs/style
+https://reactnative.dev/docs/colors 
+
+
+It's also worth exploring the official API reference articles for the different core components you might be using. For example, you can learn about all the props that can be set on the <View> component here: https://reactnative.dev/docs/view
+
+From this article, you can also get to the supported style properties for this component (via https://reactnative.dev/docs/view#style): https://reactnative.dev/docs/view-style-props
+
+Styles:
+
+{/* Inline style */}
+      <Text style={{margin: 16, borderWidth: 2, borderColor: 'red', padding: 16}}>Hello world! </Text>
+     
+// Styles Objects
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dummyText:{
+    margin: 1,
+    padding: 16,
+    borderWidth: 2,
+    borderColor: 'blue',
+  }
+});
 
 6. Exploring Layouts & Flexbox
 
+ return (
+    <View style={styles.container}>
+      <View> 
+        <TextInput placeholder='your course goal' />
+        <Button title="Add goal" />
+      </View>
+      <View>
+        <Text>List of Goals...</Text>
+      </View>
+    </View>
+  );
+
+// Styles Objects
+const styles = StyleSheet.create({
+  container: {
+    padding: 50,
+  },
+});
+
 7. React Native & Flexbox
+
+
 
 8. Using Flexbox To Create Layouts
 
