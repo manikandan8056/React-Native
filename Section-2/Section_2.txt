@@ -95,49 +95,81 @@ const styles = StyleSheet.create({
 });
 
 7. React Native & Flexbox
+Layouts are (typically) created with Flexbox
+very similar to browser css Flexbox
+|
+|
+^
+elements are positioned inside of containers 
+positioning is controlled via style settings applied to the element container
+
+flex: 1,
+flexDirection: 'column', or 'row',
+justifyContent: 'flex-start', or 'space-between',
+alignItems: 'flex-start,
 
 
 
 8. Using Flexbox To Create Layouts
 
+<View style={styles.inputContainer}> 
+        <TextInput style={styles.textInput} placeholder='your course goal' />
+        <Button title="Add goal" />
+</View>
+
+// Styles Objects
+const styles = StyleSheet.create({
+  container: {
+    padding: 50,
+  },
+  inputContainer: {
+    flexDirection: 'row',
+    justifyContent:'space-between'
+  },
+  textInput:{
+    borderWidth: 1,
+    borderColor: '#cccccc',
+    width: '80%',
+    marginRight: 8,
+    padding: 8
+  }
+});
+
 9. Flexbox - A Deep Dive
+refer flexbox project
 
-Quiz 1: Components, Styles, Layouts
+10. Improving The Layout
 
-21. Improving The Layout
+11. Handling Events
 
-22. Handling Events
+12. Managing A List Of Course Goals (in our Demo App)
 
-23. Managing A List Of Course Goals (in our Demo App)
+13. iOS & Android Styling Differences
 
-24. iOS & Android Styling Differences
+14. Making Content Scrollable with ScrollView
 
-25. Making Content Scrollable with ScrollView
+15. Optimizing Lists with FlatList
 
-26. Optimizing Lists with FlatList
+16. Splitting Components Into Smaller Components
 
-Quiz 2: More Components & Lists
+17. Utilizing Props
 
-27. Splitting Components Into Smaller Components
+18. Working on the "Goal Input" Component
 
-28. Utilizing Props
+19. Handling Taps with the Pressable Component
 
-29. Working on the "Goal Input" Component
+20. Making Items Deletable & Using IDs
 
-30. Handling Taps with the Pressable Component
+21. Adding an Android Ripple Effect & an iOS Alternative
 
-31. Making Items Deletable & Using IDs
+22. Adding a Modal Screen
 
-32. Adding an Android Ripple Effect & an iOS Alternative
+23. Styling the Modal Overlay
 
-33. Adding a Modal Screen
+24. Opening & Closing the Modal
 
-34. Styling the Modal Overlay
+25. Working with Images & Changing Colors
 
-35. Opening & Closing the Modal
+26. App Finishing Touches
 
-36. Working with Images & Changing Colors
-
-37. App Finishing Touches
-
-38. Module Summary
+27. Section-2 Summary
